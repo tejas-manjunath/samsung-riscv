@@ -11,5 +11,4 @@ This hands-on program helps participants learn **RISC-V** and **semiconductor te
 
 # Task 1
 Install the **RISC-V toolchain** using the VDI link, then compile the C code using both the **normal GCC compiler** and the **RISC-V GCC compiler** to compare the results. Refer to the provided C-based and RISC-V lab videos for guidance on completing the task.
-![Ofast riscv](https://github.com/user-attachments/assets/6577cfb2-0c3f-48ce-97fd-7de3fbade677)
 

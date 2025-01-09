@@ -10,7 +10,7 @@ This hands-on program helps participants learn **RISC-V** and **Semiconductor te
 
 **Email ID:** tejasmanjunath381@gmail.com 
 
-**LinkedIN Profile:** [Tejas M](www.linkedin.com/in/tejas---m)
+**LinkedIN Profile:** www.linkedin.com/in/tejas---m
 
 ----------------------------------------------------------------------------------------------------------------
 

@@ -47,3 +47,20 @@ gcc sum1ton.c
 **C Program output on compiling using GCC compiler**
 ![sum 1 to n](https://github.com/user-attachments/assets/a8080e4b-37b7-4122-a000-383612a9c3cf)
 
+### RISC-V instructions 
+
+It involves viewing the C code with the cat command which as been written using the leafpad.
+
+```
+cat sum1ton.c
+
+```
+
+### Generating Object file using RISC-V 64 bit compiler.
+
+```
+riscv64-unknown-elf-gcc -O1 -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
+```
+
+![Code compiled using riscv compiler](https://github.com/user-attachments/assets/5a5451a8-a061-4b9a-8f14-3658add2c727)

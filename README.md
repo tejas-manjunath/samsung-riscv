@@ -44,5 +44,5 @@ gcc sum1ton.c
 
 ```
 
-![Code compiled using gcc compiler](![sum 1 to n](https://github.com/user-attachments/assets/a8080e4b-37b7-4122-a000-383612a9c3cf)
-)
+![**C Program output on compiling using GCC compiler**]![sum 1 to n](https://github.com/user-attachments/assets/a8080e4b-37b7-4122-a000-383612a9c3cf)
+

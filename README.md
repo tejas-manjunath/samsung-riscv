@@ -43,3 +43,5 @@ gcc sum1ton.c
 ./a.out
 
 ```
+
+![Code compiled using gcc compiler]([https://github.com/user-attachments/assets/f02b5054-2576-4505-8c07-e6c7d2bf00cf](https://github.com/tejas-manjunath/samsung-riscv/blob/6e9cc89e28241374be588fea30d40c318ad60961/task1/sum%201%20to%20n.jpg))

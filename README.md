@@ -64,3 +64,19 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 ```
 
 ![Code compiled using riscv compiler](https://github.com/user-attachments/assets/5a5451a8-a061-4b9a-8f14-3658add2c727)
+
+After compiling, type
+```
+riscv64-unknown-elf-objdump -d sum1ton.o
+
+```
+to disassemble the code and examine its assembly language version. This provides a closer look at how the program works at the hardware level.
+
+The Assembly language code is displayed.
+![objdump using O1](https://github.com/user-attachments/assets/2c0ffa3e-1f74-4f6f-a0e0-ebe481fc9cfb)
+
+O1 Optimization
+
+![Objdump using Ofast](https://github.com/user-attachments/assets/6189df23-9da1-46e5-adcb-18d85c85d52e)
+
+Ofast Optimization 

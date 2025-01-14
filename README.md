@@ -37,3 +37,9 @@ int main()
 }
 ```
 
+**Commands used to compile and fetch the output are**
+```
+gcc sum1ton.c
+./a.out
+
+```

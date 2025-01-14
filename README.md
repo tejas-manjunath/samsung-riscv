@@ -20,9 +20,20 @@ This hands-on program helps participants learn **RISC-V** and **Semiconductor te
   
 **C Lab**
 
-We start by creating a file in the chosen directory using a simple editor like Leafpad. After writing the program to calculate the sum of numbers from 1 to n, save the file, close the editor, and compile it using GCC. Once compiled, you can run the program to see the output.
+We start by creating a file in our directory using a simple editor like Leafpad. After writing the program to calculate the sum of numbers from 1 to n, save the file, close the editor, and compile it using GCC. Once compiled, you can run the program to fetch the output.
 
 ### C Code to calculate 1 to n numbers
-
-$ #include<stdio.h>
+```
+#include<stdio.h>
+int main()
+{
+  int i, sum=0, n=90;
+  for(i=0;i<=n;++i)
+    {
+      sum+=i;
+    }
+  printf("Sum of numbers from 1 to %d is %d\n",n,sum);
+  return 0;
+}
+```
 

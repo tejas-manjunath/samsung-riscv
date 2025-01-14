@@ -80,5 +80,5 @@ to disassemble the code and examine its assembly language version. This provides
 </details>
 
 <details>
-<summary><b>Task 2:</b> Task is to Compile the C program  GCC and SPIKE compilers and verify both the compiler produces same output and observe the performance under the -O1 and -Ofast compiler optimization flags, and to generate and collect the RISC-V object dump for both -O1 and -Ofast optimization.</summary>   
+<summary><b>Task 2:</b> Task is to compile the C program using GCC and SPIKE compilers and verify both the compiler produces the same output and observe the performance under the -O1 and -Ofast compiler optimization flags, and to generate and collect the RISC-V object dump for both -O1 and -Ofast optimization.</summary>   
 <br>

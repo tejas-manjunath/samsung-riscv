@@ -41,7 +41,6 @@ int main()
 ```
 gcc sum1ton.c
 ./a.out
-
 ```
 
 **C Program output on compiling using GCC compiler**
@@ -53,7 +52,6 @@ It involves viewing the C code with the cat command which as been written using 
 
 ```
 cat sum1ton.c
-
 ```
 
 ### Generating Object file using RISC-V 64 bit compiler.
@@ -68,7 +66,6 @@ riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i -o sum1ton.o sum1ton.c
 After compiling, type
 ```
 riscv64-unknown-elf-objdump -d sum1ton.o
-
 ```
 to disassemble the code and examine its assembly language version. This provides a closer look at how the program works at the hardware level.
 

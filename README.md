@@ -115,3 +115,32 @@ gcc swap.c
 ```
 spike pk swap.o
 ```
+![gcc and spike output](https://github.com/user-attachments/assets/33518772-9e1b-403f-b0b0-69796f24c75e)
+
+Object dump for C code using Ofast and O1
+
+![Objdump using Ofast](https://github.com/user-attachments/assets/1fe955a2-e168-444c-9635-2fbe5b8f4888)
+
+**Using Ofast**
+
+![Objdump using O1](https://github.com/user-attachments/assets/c7fd357c-b231-4c59-96cf-782473a7cd0d)
+
+**Using O1**
+
+To debug the assembly language program use the following commands
+
+1. To open the object dump
+   ```
+   riscv64-unknown-elf-objdump -d swap.o | less
+   ```
+2. To debug
+   ```
+   spike -d pk swap.o
+   ```
+
+The debugging operations are performed as follows
+![Ofast complete](https://github.com/user-attachments/assets/abb9e8c4-8487-45f8-a0ff-2fda66e8c99b)
+**Debugging -Ofast object dump file** 
+
+![O1 complete](https://github.com/user-attachments/assets/adbafd8d-7609-4db6-9040-dfa4d397a4a0)
+**Debugging -O1 object dump file**

@@ -83,7 +83,7 @@ to disassemble the code and examine its assembly language version. This provides
 <summary><b>Task 2:</b> Task is to compile the C program using GCC and SPIKE compilers and verify both the compiler produces the same output and observe the performance under the -O1 and -Ofast compiler optimization flags, and to generate and collect the RISC-V object dump for both -O1 and -Ofast optimization.</summary>   
 <br>
 
-C program to calculate factorial of number
+**C program to calculate factorial of number**
 ```
 #include<stdio.h>
 int fact(int n);
@@ -100,4 +100,18 @@ return 1;
 else
 return(n* fact(n-1));
 }
+```
+
+The code has to be simulated using both gcc and riscv compiler. Same output should be displayed on the terminal for both.
+
+The commands used are as follows:
+
+### For gcc compiler
+```
+gcc swap.c
+./a.out
+```
+### For riscv compiler
+```
+spike pk swap.o
 ```

@@ -82,3 +82,22 @@ to disassemble the code and examine its assembly language version. This provides
 <details>
 <summary><b>Task 2:</b> Task is to compile the C program using GCC and SPIKE compilers and verify both the compiler produces the same output and observe the performance under the -O1 and -Ofast compiler optimization flags, and to generate and collect the RISC-V object dump for both -O1 and -Ofast optimization.</summary>   
 <br>
+
+C program to calculate factorial of number
+```
+#include<stdio.h>
+int fact(int n);
+void main()
+{
+int digit = 25, factorial;
+factorial = fact(digit);
+printf("\n the factorial of the number %d is %d \n",digit,factorial);
+}
+int fact(int n)
+{
+if (n == 0 || n== 1)
+return 1;
+else
+return(n* fact(n-1));
+}
+```

@@ -162,3 +162,14 @@ There are 6 instruction formats in RISC-V:
 
 ![RISCV Instruction Types](https://github.com/user-attachments/assets/cf2b535c-e9b5-46b9-9020-943223206153)
 
+### *15 Different instructions and their 32 bits instruction code*  
+  
+```
+li a0, 0x21  
+```  
+> Opcode: 0010011 (7 bits)                          = 0010011  
+> Immediate (Imm): 0x21 (12 bits)                   = 0000 0010 0001
+> Source Register (rs1): x0 (zero register, 5 bits) = 00000
+> Destination Register (rd): a0 (5 bits)            = 00001
+> func3:(3 bits)                                    = 000
+

@@ -167,9 +167,10 @@ There are 6 instruction formats in RISC-V:
 ```
 li a0, 0x21  
 ```  
-> Opcode: (7 bits)                           = 0010011
+> *Opcode: (7 bits)                           = 0010011
 > Immediate (Imm): 0x21 (12 bits)            = 0000 0010 0001
 > Source Register (rs1): x0 (5 bits)         = 00000 
 > Destination Register (rd): a0 (5 bits)     = 00001
 > func3:(3 bits)                             = 000
 
+**32 bits instruction :** ```0000 0010 0001 | 00000| 000 | 00001 | 0010011``` 

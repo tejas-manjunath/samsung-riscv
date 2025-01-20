@@ -144,7 +144,9 @@ The debugging operations are performed as follows
 
 ![O1 complete](https://github.com/user-attachments/assets/adbafd8d-7609-4db6-9040-dfa4d397a4a0)
 **Debugging -O1 object dump file**
-<details>
+</details>
+
   
 <details>
-<summary><b>Task 2:</b> Task is to identify instruction type of all the given instructions with its exact 32 bits instruction code in the desired instruction type format</summary>
+<summary><b>Task 3:</b> Task is to identify 15 different instruction in the object dump file with its exact 32 bits instruction code in the desired instruction type format</summary>
+

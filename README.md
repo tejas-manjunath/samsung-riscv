@@ -149,4 +149,16 @@ The debugging operations are performed as follows
   
 <details>
 <summary><b>Task 3:</b> Task is to identify 15 different instruction in the object dump file with its exact 32 bits instruction code in the desired instruction type format</summary>
+  
+## INSTRUCTIONS FORMAT IN RISC-V  
+The instruction format of a processor defines how machine language instructions are structured and organized, enabling the processor to execute operations. It consists of binary patterns (0s and 1s) that specify the operation to be performed and the data or location involved.
+There are 6 instruction formats in RISC-V:  
+1. R(Register)-format 
+2. I(Immediate)-format  
+3. S(Store)-format  
+4. B(Branch)-format  
+5. U(Upper)-format  
+6. J(Jump)-format
+
+![RISCV Instruction Types](https://github.com/user-attachments/assets/cf2b535c-e9b5-46b9-9020-943223206153)
 

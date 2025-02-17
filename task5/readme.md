@@ -11,9 +11,9 @@ This project implements a simple task scheduler using a RISC-V processor to simu
 * Outputs logs via serial monitor for real-time debugging.
 
 ## Components Required:
-* RISC-V Processor (VSDquadron Mini)
-* Serial Communication (UART for debugging)
-* Software-based Timers
+* RISC-V Processor (VSDquadron Mini).
+* Serial Communication (UART for debugging).
+* Software-based Timers.
 
 ## Process of Implementation:
 
